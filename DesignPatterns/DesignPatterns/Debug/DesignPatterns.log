@@ -1,5 +1,4 @@
-﻿  Bridge.cpp
-  Abstract.cpp
-  Generating Code...
-  DesignPatterns.vcxproj -> C:\Users\gameuser\Desktop\DesignPatterns\Debug\DesignPatterns.exe
-  DesignPatterns.vcxproj -> C:\Users\gameuser\Desktop\DesignPatterns\Debug\DesignPatterns.pdb (Partial PDB)
+﻿  Proxy.cpp
+Proxy.obj : error LNK2019: unresolved external symbol "public: __thiscall Graphics::Graphics(void)" (??0Graphics@@QAE@XZ) referenced in function "private: class Graphics * __thiscall GraphicProxy::getInstance(void)" (?getInstance@GraphicProxy@@AAEPAVGraphics@@XZ)
+Proxy.obj : error LNK2019: unresolved external symbol "public: __thiscall Graphics::~Graphics(void)" (??1Graphics@@QAE@XZ) referenced in function "public: void * __thiscall Graphics::`scalar deleting destructor'(unsigned int)" (??_GGraphics@@QAEPAXI@Z)
+C:\Users\gameuser\Desktop\GamesEngineering2\DesignPatterns\Debug\DesignPatterns.exe : fatal error LNK1120: 2 unresolved externals

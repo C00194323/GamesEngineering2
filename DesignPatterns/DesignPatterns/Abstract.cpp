@@ -38,7 +38,7 @@
 //		return new Boss;
 //	}
 //};
-//
+
 //int main() {
 //	Factory* factory = new CharacterFactory;
 //	vector<Character*> characters;

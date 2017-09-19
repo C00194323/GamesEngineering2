@@ -114,10 +114,12 @@
     <ClCompile Include="Abstract.cpp" />
     <ClCompile Include="Bridge.cpp" />
     <ClCompile Include="Proxy.cpp" />
+    <ClCompile Include="ProxyMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraphicProxy.h" />
     <ClInclude Include="Graphics.h" />
+    <ClInclude Include="IGraphic.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
