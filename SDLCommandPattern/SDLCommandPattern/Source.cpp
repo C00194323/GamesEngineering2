@@ -64,7 +64,7 @@ public:
 	virtual void redo();*/
 private:
 	list<Command*>* commands;
-	list<Command*>*PrevCommand;
+	list<Command*>* PrevCommand;
 };
 
  
