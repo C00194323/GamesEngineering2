@@ -44,7 +44,7 @@ int main(int argc, char* argv[])
 		player.Render();
 
 		if (i == 0)
-		{
+		{ 
 			fsm.jumping();
 			std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 			i = 1;
