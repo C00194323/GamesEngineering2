@@ -1,8 +1,16 @@
 #include <SDL.h>
 #include <SDL_image.h>
 #include "Entity.h"
+
+//Components
 #include "HealthComponent.h"
+#include "PositionComponent.h"
+#include "ControlComponent.h"
+
+// Systems 
+#include "RenderSystem.h"
 #include "AI_System.h"
+#include "ControlSystem.h"
 #include <iostream>
 
 using namespace std;
@@ -17,11 +25,38 @@ int main(int argc, char* argv[])
 
 
 	Entity player;
-	HealthComponent hc;
-	player.addComponent(hc);
+	Entity Alien;
+	Entity Dog;
+	Entity Cat;
 
-	AI_System hs;
-	hs.addEntity(player);
+	HealthComponent hc;
+	PositionComponent pc;
+	ControlComponent cc;
+	
+
+	
+	Alien.addComponent(hc);
+	Alien.addComponent(pc);
+
+	Dog.addComponent(hc);
+	Dog.addComponent(pc);
+
+	Cat.addComponent(hc);
+	Cat.addComponent(pc);
+	
+	player.addComponent(hc);
+	player.addComponent(pc);
+	player.addComponent(cc);
+
+
+
+	AI_System ais;
+	ControlSystem cs;
+	RenderSystem rs;
+
+	ais.addEntity(player);
+	cs.addEntity(player);
+	rs.addEntity(player);
 
 	bool isRunning = true;
 
@@ -35,8 +70,11 @@ int main(int argc, char* argv[])
 			{
 				isRunning = false;
 			}
+			
 		}
-		hs.update();
+		ais.update();
+		cs.update();
+		rs.update();
 	}
 	SDL_Quit();
 	return 0;

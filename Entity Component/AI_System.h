@@ -4,11 +4,13 @@
 class AI_System
 {
 	std::vector<Entity> entities;
+
 public:
 	void addEntity(Entity e){}
 	void update()
 	{
 		std::cout << "Health Component Updating" << std::endl;
+		std::cout << "Position Component Updating" << std::endl;
 
 	}
 };

@@ -1,3 +1,5 @@
 ﻿  Source.cpp
+c:\users\gameuser\desktop\gamesengineering2\entity component\entity.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\gameuser\desktop\gamesengineering2\entity component\positioncomponent.h(13): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
   Entity Component.vcxproj -> C:\Users\gameuser\Desktop\GamesEngineering2\Entity Component\Debug\Entity Component.exe
   Entity Component.vcxproj -> C:\Users\gameuser\Desktop\GamesEngineering2\Entity Component\Debug\Entity Component.pdb (Partial PDB)

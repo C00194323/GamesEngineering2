@@ -123,16 +123,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ControlSystem.cpp" />
     <ClCompile Include="HealthSystem.cpp" />
+    <ClCompile Include="RenderSystem.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BasicTypes.h" />
     <ClInclude Include="Component.h" />
+    <ClInclude Include="ControlSystem.h" />
+    <ClInclude Include="ControlComponent.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="HealthComponent.h" />
     <ClInclude Include="AI_System.h" />
     <ClInclude Include="PositionComponent.h" />
+    <ClInclude Include="RenderSystem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
