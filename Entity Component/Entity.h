@@ -11,8 +11,9 @@ public:
 	{
 		components.push_back(c);
 	}
-	void removeComponents(Component c)
-	{}
+
+	void removeComponents(Component c) {}
+
 	std::vector<Component> getComponents() 
 	{ 
 		return components; 
