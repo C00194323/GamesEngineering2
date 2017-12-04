@@ -1,0 +1,30 @@
+﻿  stdafx.cpp
+  Water.cpp
+c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\renderer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  SDL_Starter_app.cpp
+c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\renderer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  startscreen.cpp
+c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\renderer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Renderer.cpp
+c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\renderer.cpp(3): fatal error C1083: Cannot open include file: 'SDL_image.h': No such file or directory
+  LTimer.cpp
+c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\ltimer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  InputManager.cpp
+c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\inputmanager.h(7): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Game.cpp
+c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\ltimer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  ScreenFader.cpp
+c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\renderer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  RespawnBox.cpp
+c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\renderer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Portal.cpp
+c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\renderer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Player.cpp
+c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\renderer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Platform.cpp
+c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\renderer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Level.cpp
+c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\renderer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  GameOverScreen.cpp
+c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\renderer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Generating Code...

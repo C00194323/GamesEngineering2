@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\gameuser\Desktop\RWM\RWM_1718_P1_E\x64\Debug\Test.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
