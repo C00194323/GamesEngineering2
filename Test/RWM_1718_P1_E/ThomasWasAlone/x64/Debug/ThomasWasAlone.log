@@ -8,19 +8,19 @@
   Game.cpp
   ScreenFader.cpp
   RespawnBox.cpp
-c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\respawnbox.cpp(31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\respawnbox.cpp(32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\respawnbox.cpp(46): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\respawnbox.cpp(47): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\respawnbox.cpp(61): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\respawnbox.cpp(62): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\gameuser\desktop\gamesengineering2\test\rwm_1718_p1_e\thomaswasalone\respawnbox.cpp(31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\gameuser\desktop\gamesengineering2\test\rwm_1718_p1_e\thomaswasalone\respawnbox.cpp(32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\gameuser\desktop\gamesengineering2\test\rwm_1718_p1_e\thomaswasalone\respawnbox.cpp(46): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\gameuser\desktop\gamesengineering2\test\rwm_1718_p1_e\thomaswasalone\respawnbox.cpp(47): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\gameuser\desktop\gamesengineering2\test\rwm_1718_p1_e\thomaswasalone\respawnbox.cpp(61): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\gameuser\desktop\gamesengineering2\test\rwm_1718_p1_e\thomaswasalone\respawnbox.cpp(62): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   Portal.cpp
   Player.cpp
-c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\player.cpp(74): warning C4305: '*=': truncation from 'double' to 'float'
-c:\users\gameuser\desktop\rwm\rwm_1718_p1_e\thomaswasalone\player.cpp(144): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\gameuser\desktop\gamesengineering2\test\rwm_1718_p1_e\thomaswasalone\player.cpp(74): warning C4305: '*=': truncation from 'double' to 'float'
+c:\users\gameuser\desktop\gamesengineering2\test\rwm_1718_p1_e\thomaswasalone\player.cpp(144): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   Platform.cpp
   Level.cpp
   GameOverScreen.cpp
   Generating Code...
-  ThomasWasAlone.vcxproj -> C:\Users\gameuser\Desktop\RWM\RWM_1718_P1_E\x64\Debug\SDL_Starter_app.exe
-  ThomasWasAlone.vcxproj -> C:\Users\gameuser\Desktop\RWM\RWM_1718_P1_E\x64\Debug\SDL_Starter_app.pdb (Partial PDB)
+  ThomasWasAlone.vcxproj -> C:\Users\gameuser\Desktop\GamesEngineering2\Test\RWM_1718_P1_E\x64\Debug\SDL_Starter_app.exe
+  ThomasWasAlone.vcxproj -> C:\Users\gameuser\Desktop\GamesEngineering2\Test\RWM_1718_P1_E\x64\Debug\SDL_Starter_app.pdb (Partial PDB)
