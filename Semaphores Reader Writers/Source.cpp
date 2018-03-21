@@ -10,21 +10,20 @@ Semaphore m_semaphoreMutex;
 int rw = 1;
 int mutexR = 1;
 int readers = 0;
-bool running = true;
 
 void Reader()
 {
-	while (running)
+	while (true)
 	{
 		std::cout << "Reader active " << std::endl;
-		std::this_thread::sleep_for(std::chrono::seconds(1));
+		
 		
 		m_semaphoreMutex.P();
 		//Adds a reader 
 		readers++;
 		if (readers == 1)
 		{
-			m_semaphoreMutex.P();
+			m_semaphoreRW.P();
 		}
 		// Locks
 		m_semaphoreMutex.V();
@@ -39,20 +38,24 @@ void Reader()
 		//Unlocks
 		std::cout << "Reader Unlocks File" << std::endl;
 		m_semaphoreMutex.V();
+		
+		std::this_thread::sleep_for(std::chrono::seconds(1));
 	}
 }
 
 void Writer()
 {
-	while (running)
+	while (true)
 	{
-		std::cout << "Writer active" << std::endl;
-		std::this_thread::sleep_for(std::chrono::seconds(1));
-		std::cout << "Writer Locks File" << std::endl;
 		m_semaphoreRW.P();
-		std::cout << "Writer Using File" << std::endl;
+		std::cout << "Writer active" << std::endl;
+		
+		std::cout << "Writer Locks File" << std::endl;
+
 		std::cout << "Writer Unlocking File" << std::endl;
 		m_semaphoreRW.V();
+		
+		std::this_thread::sleep_for(std::chrono::seconds(1));
 
 	}
 }
